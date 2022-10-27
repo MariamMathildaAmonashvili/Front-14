@@ -47,15 +47,19 @@ const objectResult = [object1 , object2 , object3 , object4 , object5] ;
 
 
 //Task 3 //
-const myArr = [ 579237932] ;
+const myArr = [ 579237932 , 405395834] ;
+const myAddress = ["Tbilisi" , "Georgia"] ;
 const info = {
     firstName : "Mariam Mathilda", 
     lastName : "Amonashvili",
     age : 21 , 
-    phoneNumbers : myArr ,
-    address : "Tbilisi"  ,
-    zipCode : 0162 ,
+    phoneNumbers : myArr [0] , 
+    address : myAddress [0] ,
+    zipCode : 12162 ,
 
 } ;
 
-//console.log("User name is "+info.firstName +", user age is "+ info.age +" , user address is " +info.address);
+
+// console.log("User name is "+info.firstName +", user age is "+ info.age +" , user address is " +info.address) ;
+
+//console.log (info.phoneNumbers) ;
